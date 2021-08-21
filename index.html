@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>farmacias cumunitarias</title>
+   <link rel="stylesheet" href="styles/stylos.css">
+   
+   <!--font awesome-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="correo.php"></script>
+</head>
+<body>
+    <!-- cabecera-->
+
+    <header class="header_farma"> 
+        <img src="images/Captura.PNG" alt="">
+        <h1> farmacias Comunitarias </h1>
+        <h2>"Productos Genericos de la más alta calidad al mas bajo costo"</h2>
+    </header>
+
+    <H1 class="page">MENU PRINCIPAL</H1>
+    
+        <nav class="menu_farma">
+           <ul class="main_farama">
+            <li>
+                <a href="index.html">MENU PRINCIPAL</a>
+            </li>
+            <li>
+                <a href="pages/historia.html">HISTORIA</a>
+            </li>
+            <li>
+                <a href="pages/productos.html">PRODUCTO</a>
+            </li>
+            <li>
+                <a href="pages/proveedores.html">NUEVOS PROVEEDORES</a>
+      
+            </li>
+            <li>
+                <a href="pages/carrito.html"><img src="../images/carrito.jpg" alt=""></a>           
+             </li>
+           </ul>
+        </nav>
+        <br>
+       
+       
+    <!--contenido principal-->
+    
+       
+
+       <aside class="aside_farma">
+           <h3>link de interes</h3>
+           <ul>
+               <li >
+                   <a href="https://registrovacunacovid.mspas.gob.gt/mspas/login"> Registro para vacuna covid</a>
+               </li>
+               <li>
+                   <a href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public">informacion covid-19</a>
+               </li>
+
+               <li>
+                   <a href="https://www.who.int/es" >Organización mundial de salud</a>
+               </li>
+               <li>
+
+                   <a href="https://cruzverde.com.gt/blog/2018/07/13/paralisis-de-bell-paralisis-facial/">Paralisis de bell</a>
+               </li>
+               <li>
+                   <a href="https://cruzverde.com.gt/blog/2018/06/04/acido-folico-al-menos-un-mes-antes-del-embarazo/">Acido Folico</a>
+               </li>
+               <li>
+                   <a href="https://cruzverde.com.gt/blog/2018/05/15/osteoartritis-todo-lo-que-necesita-saber/">Osteoartritis</a>
+               </li>
+               <li>
+                    <a href="https://cruzverde.com.gt/blog/2018/05/15/diarrea/">diarrea</a>
+               </li>
+
+           </ul>
+
+           <img src="images/prevencion covid.jpg" alt="prevencion covid-19">
+
+       </aside>
+      
+       <main>
+
+        <div class="informacion">
+         <h2>Bienvenido!!! </h2>
+         <p>En farmacias comunitarias contamos con gran variedad de medicamentos de buena calidad y al alcance de tu bolsillo.</p>
+         <p>Nuestro personal está altamente  capacitado, contamos con gran variedad de medicamentos de laboratorios muy prestigiosos. </p>
+         <p>No olvides vista nuestra sección de productos</p>
+
+        </div>
+           <div class="conteiner">
+            <form method="POST" action="correo.php">
+                <legend class="legend_proveedores"> Contactanos</legend>
+                   <label for="idNombre">NOMBRE</label>
+                   <input type="text" class="form-control" 
+                   name="nombre" id="idNombre" required placeholder="Ingresa tu nombre">
+
+                   <label for="idEmail">EMAIL</label>
+                   <input type="email" class="form-control" 
+                   name="email" id="idEmail" required placeholder="Solo direcciónes validas">
+
+                   <label for="idAsunto">ASUNTO</label>
+                   <select name="asunto" id="idAsunto" required aria-placeholder="Selecciona una Opcion">
+                       <option value="contacto" >CONTACTO</option>
+                       <option value="dudas">DUDAS</option>
+                       <option value="RECLAMOS_producto">RECLAMOS DE PRODUCTO</option>
+                   
+                   <label for="idMensaje">MENSAJE</label>
+                   <textarea class="form-control" name="mensaje" id="idMensaje" 
+                   cols="10" rows="5"></textarea>
+
+                   <br> 
+                  <div>
+                  <input type="submit"
+                  name="submit"
+                   value="Guardar" 
+                   class="btn btn-success"
+                  >
+
+                   <input type="reset" 
+                    class="btn btn-danger" 
+                   value="limpiar campos">
+
+                  </div  > 
+
+                
+ 
+
+               </form>
+           </div>
+       </main>
+
+    <!--redes sociales-->
+     
+    <div class="links">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <!--pie de pagina-->
+    <footer  class="footer_farma"> 
+        <h4>copyright  farmacias comunitarias S.A. egoo-2021</h4>
+
+    </footer>
+</body>
+</html>

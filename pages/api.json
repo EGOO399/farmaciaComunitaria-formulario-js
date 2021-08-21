@@ -1,0 +1,47 @@
+[
+    {
+        "precio": 100,
+        "id": 1,
+        "title": "Acetaminofen Tab",
+        "imagen": "/images/aceta.PNG"
+    },
+    {
+        "precio": 50,
+        "id": 2,
+        "title": "alcohol",
+        "imagen":"/images/alcohol.PNG"  
+    },
+    {
+        "precio": 200,
+        "id": 3,
+        "title": "Alka-seltzer",
+        "imagen":"/images/alka-seltzer.PNG"
+    },
+    {
+         "precio": 20,
+         "id": 4,
+         "title": "Azitromicina tab",
+         "imagen":"/images/azitromicina-500mg.jpg"
+    },
+    {
+         "precio": 100,
+        "id": 5,
+         "title": "Gasas",
+        "imagen":"/images/gasas.PNG"
+    },
+    {
+        "precio": 200,
+        "id": 6,
+        "title": "Esomeprazol 40mg cap.",
+        "imagen":"/images/esomeprazol-40mg.png"   
+
+    },
+    {
+        "precio": 50,
+     "id": 7,
+     "title": "fexonasal 180mg tab.",
+     "imagen":"/images/fexofenadina-180mg.jpg"
+    }
+
+ 
+ ]

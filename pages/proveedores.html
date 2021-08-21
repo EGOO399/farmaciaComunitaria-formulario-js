@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Proveedores</title>
+
+    
+   <link rel="stylesheet" href="../styles/stylos.css">
+   <script src="../scrypt/script.js"></script>
+   <!--font awesome-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+    <header class="header_farma"> 
+        <img src="../images/Captura.PNG" alt="">
+       <h1> farmacias Comunitarias </h1>
+       <h2>"Productos Genericos de la más alta calidad al mas bajo costo"</h2>
+    </header>
+   <H1 class="page">NUEVOS PROVEEDORES</H1>
+    
+
+   <nav class="menu_farma">
+    <ul class="main_farama">
+       <li>
+           <a href="../index.html">MENU PRINCIPAL</a>
+       </li>
+       <li>
+           <a href="../pages/historia.html">HISTORIA</a>
+       </li>
+       <li>
+           <a href="../pages/productos.html">PRODUCTO</a>
+        </li>
+       <li>
+           <a href="../pages/proveedores.html">NUEVOS PROVEEDORES</a>
+
+       </li>
+       <li>
+            <a href="../pages/carrito.html"><img src="../images/carrito.jpg" alt=""></a>       
+       </li>
+       </ul>
+ </nav>
+   <br> 
+
+    
+          
+    
+    
+        <div class="conteiner">
+        
+           
+            <form>
+                 <legend class="legend_proveedores"> Registro proveedores nuevos</legend>
+                     
+                <label for="idNombre">Nombre</label>
+                <input type="text" class="form-control" name="nombre" id="idNombre" required placeholder="ingrese el nombre">
+
+                <label for="idDpi">DPI</label>
+                <input type="number" class="form-control" name="dpi" id="idDpi" required placeholder="Ingrese solo números">
+
+                <label for="idCel">Telefono</label>
+                <input type="number" class="form-control" name="telefono" id="idCel" required placeholder="ingrese solo números">
+
+                <label for="idEmail">Correo Electronico</label>
+                <input type="email" class="form-control" name="email" id="idEmail" required placeholder="solo direcciones validas">
+            
+                
+                <label for="idEmpresa">Empresa</label>
+                <input type="text" class="form-control" name="empresa" id="idEmpresa">
+
+                <legend>Asignacion de usuario y contraseña</legend>
+
+            
+
+                <label for="idUsuario">usuario</label> 
+                <input type="text" class="form-control" name="usuario" id="idUsuario" required placeholder="ingrese el usuario">   
+                
+                <label for="idContraseña">Contraseña </label>
+                <input type="password" class="form-control" name="contraseña" id="idContraseña" required placeholder="ingrese la contraseña">
+              <br> 
+              <div>
+              <input type="button"
+               value="Guardar" 
+               class="btn btn-success"
+               onclick="addData()">
+
+               <input type="reset" 
+               class="btn btn-danger" 
+               value="limpiar campos">
+
+            </div  > 
+
+              <br>
+              <div  class="table_proveedor" > 
+              <table class=" table table-dark table-bordered ">
+                  <thead>
+                      <tr>
+                          <th>nombre</th>
+                          <th>DPI</th>
+                          <th>Telefono</th>
+                          <th>Correo Electronico</th>
+                          <th>Empresa</th>
+                          <th>usuario</th>
+                          <th>Contraseña</th>
+
+                      </tr>
+                  </thead>
+                  <tbody id="listado">
+
+                  </tbody>
+
+              </table>
+            </div  > 
+            </form>
+
+            
+          </div>
+         
+      
+   <br>
+   <!--redes sociales-->
+     
+        
+   <div class="links">
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="#"><i class="fab fa-whatsapp"></i></a>
+</div>
+    <!--pie de pagina-->
+    <footer  class="footer_farma"> 
+        <h4>copyright farmacias comunitarias S.A.  egoo-2021</h4>
+
+    </footer>
+</body>
+</html>
