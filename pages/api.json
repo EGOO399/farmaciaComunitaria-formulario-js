@@ -3,7 +3,7 @@
         "precio": 100,
         "id": 1,
         "title": "Acetaminofen Tab",
-        "imagen": "/images/aceta.PNG"
+        "imagen": "../images/aceta.PNG"
     },
     {
         "precio": 50,
